@@ -90,14 +90,14 @@ module.exports={
                                             console.log("User registered successfully", newUser);
                                             return res.redirect("/login");
                                         }
-                 
+                    
                 } 
                 }catch (error) {
                 console.error("Error during registration:", error);
                 res.status(500).json({
                     message: error.message || "Internal server error"
                 });
-            } 
+            }        
         },
         
 // function to register users  on system
