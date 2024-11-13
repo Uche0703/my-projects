@@ -98,7 +98,7 @@ module.exports={
                     message: error.message || "Internal server error"
                 });
             }        
-        },
+        },   
         
 // function to register users  on system
      
